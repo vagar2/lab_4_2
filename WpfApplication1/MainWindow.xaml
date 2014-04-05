@@ -4,15 +4,15 @@
         Title="К лабе 4.2" Height="313" Width="381">
     <Grid>
         <Menu HorizontalAlignment="Left" Height="21" VerticalAlignment="Top" Width="357">
-            <MenuItem Header="Файл" Name="File">
+            <MenuItem Header="Файл" Name="File" Click="File_Click">
                 <MenuItem Header="Закрыть"/>
             </MenuItem>
             <MenuItem Header="Задачи" Name="Tasks">
-                <MenuItem Header="Нахождение площади треугольника" Name="Square"/>
-                <MenuItem Header="Нахождение периметра треугольника" Name="Perimeter"/>
+                <MenuItem Header="Нахождение площади треугольника" Name="Square" Click="Square_Click"/>
+                <MenuItem Header="Нахождение периметра треугольника" Name="Perimeter" Click="Perimeter_Click"/>
             </MenuItem>
             <MenuItem Header="Информация" Name="Information">
-                <MenuItem Header="Об авторе" Name="Author"/>
+                <MenuItem Header="Об авторе" Name="Author" Click="Author_Click"/>
             </MenuItem>
         </Menu>
         <RadioButton x:Name="radioButton1" Content="Треугольник по умолчанию" HorizontalAlignment="Left" Margin="10,26,0,0" VerticalAlignment="Top" Checked="radioButton1_Checked"/>
