@@ -34,6 +34,26 @@ namespace WpfApplication1
                 textBox2.Text = Convert.ToString(T.get_B());
                 textBox3.Text = Convert.ToString(T.get_C());
             }
+            if (radioButton2.IsChecked == true)
+            {
+                if (
+                    (tx1.Text=="") || 
+                    (tx2.Text=="") || 
+                    (tx3.Text=="") || 
+                    (ty1.Text=="") ||
+                    (ty2.Text=="") ||
+                    (ty3.Text=="")
+                    )
+                {
+                    MessageBox.Show("Не все координаты заполнены");
+                    return;
+                }
+                
+                Treugol T = new Treugol(Convert.ToInt32(tx1.Text), Convert.ToInt32(ty1.Text), Convert.ToInt32(tx2.Text), Convert.ToInt32(ty2.Text), Convert.ToInt32(tx3.Text), Convert.ToInt32(ty3.Text));
+                textBox1.Text = Convert.ToString(T.get_A());
+                textBox2.Text = Convert.ToString(T.get_B());
+                textBox3.Text = Convert.ToString(T.get_C());
+            }
         }
     }
 }

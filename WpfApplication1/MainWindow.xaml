@@ -16,7 +16,7 @@
             </MenuItem>
         </Menu>
         <RadioButton x:Name="radioButton1" Content="Треугольник по умолчанию" HorizontalAlignment="Left" Margin="10,26,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="Задать треугольник по координатам" HorizontalAlignment="Left" Margin="10,46,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButton2" Content="Задать треугольник по координатам" HorizontalAlignment="Left" Margin="10,46,0,0" VerticalAlignment="Top"/>
         <Label Content="сторона А" HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top" RenderTransformOrigin="-6.184,-2.577" Height="23"/>
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="81,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="сторона B" HorizontalAlignment="Left" Margin="10,94,0,0" VerticalAlignment="Top" RenderTransformOrigin="-6.184,-2.577" Height="23"/>
@@ -24,17 +24,17 @@
         <Label Content="сторона C" HorizontalAlignment="Left" Margin="10,122,0,0" VerticalAlignment="Top" RenderTransformOrigin="-6.184,-2.577" Height="23"/>
         <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="81,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="x1=" HorizontalAlignment="Left" Margin="251,26,0,0" VerticalAlignment="Top" Height="23" FontSize="10"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="286,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"/>
+        <TextBox x:Name="tx1" HorizontalAlignment="Left" Height="23" Margin="286,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"/>
         <Label Content="y1=" HorizontalAlignment="Left" Margin="251,54,0,0" VerticalAlignment="Top" Height="23" FontSize="10"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="286,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"/>
+        <TextBox x:Name="ty1" HorizontalAlignment="Left" Height="23" Margin="286,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"/>
         <Label Content="x2=" HorizontalAlignment="Left" Margin="251,82,0,0" VerticalAlignment="Top" Height="23" FontSize="10"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="286,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"/>
+        <TextBox x:Name="tx2" HorizontalAlignment="Left" Height="23" Margin="286,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"/>
         <Label Content="y2=" HorizontalAlignment="Left" Margin="251,110,0,0" VerticalAlignment="Top" Height="23" FontSize="10"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="286,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"/>
+        <TextBox x:Name="ty2" HorizontalAlignment="Left" Height="23" Margin="286,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"/>
         <Label Content="x3=" HorizontalAlignment="Left" Margin="251,138,0,0" VerticalAlignment="Top" Height="23" FontSize="10"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="286,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"/>
+        <TextBox x:Name="tx3" HorizontalAlignment="Left" Height="23" Margin="286,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"/>
         <Label Content="y3=" HorizontalAlignment="Left" Margin="251,166,0,0" VerticalAlignment="Top" Height="23" FontSize="10"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="286,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"/>
+        <TextBox x:Name="ty3" HorizontalAlignment="Left" Height="23" Margin="286,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"/>
         <Button x:Name="bt_OK" Content="Вычисления" HorizontalAlignment="Left" Margin="10,169,0,0" VerticalAlignment="Top" Width="75" Click="bt_OK_Click"/>
 
     </Grid>
