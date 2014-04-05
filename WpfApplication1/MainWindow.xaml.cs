@@ -33,6 +33,8 @@ namespace WpfApplication1
                 textBox1.Text = Convert.ToString(T.get_A());
                 textBox2.Text = Convert.ToString(T.get_B());
                 textBox3.Text = Convert.ToString(T.get_C());
+                tPerimetr.Text = Convert.ToString(T.PerimetrTreugol() );
+                tPloschad.Text = Convert.ToString(T.PloschadTreugol() );
             }
             if (radioButton2.IsChecked == true)
             {
@@ -74,6 +76,8 @@ namespace WpfApplication1
             ty1.IsEnabled = true;
             ty2.IsEnabled = true;
             ty3.IsEnabled = true;
+            tPerimetr.Text = "";
+            tPloschad.Text = "";
         }
 
         private void radioButton1_Checked(object sender, RoutedEventArgs e)
@@ -93,6 +97,8 @@ namespace WpfApplication1
             ty1.Text = "";
             ty2.Text = "";
             ty3.Text = "";
+            tPerimetr.Text = "";
+            tPloschad.Text = "";        
         }
     }
 }
