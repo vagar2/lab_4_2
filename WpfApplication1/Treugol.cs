@@ -39,5 +39,15 @@ namespace WpfApplication1
         {
             return c;
         }
+
+        public double PerimetrTreugol()
+        {
+            return a + b + c;
+        }
+
+        public double PloschadTreugol()
+        {
+            return Math.Sqrt((PerimetrTreugol() / 2) * ((PerimetrTreugol() / 2) - a) * ((PerimetrTreugol() / 2) - b) * ((PerimetrTreugol() / 2)-c));
+        }
     }
 }
