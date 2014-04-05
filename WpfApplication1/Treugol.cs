@@ -24,10 +24,20 @@ namespace WpfApplication1
             c = Math.Sqrt((x1 - x3) ^ 2 + (y1 - y3) ^ 2);
 
         }
-
+        /*
         public ~Treugol()
+        { }*/
+        public double get_A()
         {
-
+            return a;
+        }
+        public double get_B()
+        {
+            return b;
+        }
+        public double get_C()
+        {
+            return c;
         }
     }
 }

@@ -24,5 +24,16 @@ namespace WpfApplication1
         {
             InitializeComponent();
         }
+
+        private void bt_OK_Click(object sender, RoutedEventArgs e)
+        {
+            if (radioButton1.IsChecked == true)
+            {
+                Treugol T = new Treugol();
+                textBox1.Text = Convert.ToString(T.get_A());
+                textBox2.Text = Convert.ToString(T.get_B());
+                textBox3.Text = Convert.ToString(T.get_C());
+            }
+        }
     }
 }
